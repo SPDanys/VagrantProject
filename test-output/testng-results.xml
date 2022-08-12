@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1908" started-at="2022-08-12T08:32:50Z" finished-at="2022-08-12T08:32:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1908" started-at="2022-08-12T08:32:50Z" finished-at="2022-08-12T08:32:51Z">
+      <class name="com.execution.RCB">
+        <test-method status="PASS" signature="get_rcb_player_list()[pri:0, instance:com.execution.RCB@56f4468b]" name="get_rcb_player_list" is-config="true" duration-ms="18" started-at="2022-08-12T08:32:50Z" finished-at="2022-08-12T08:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_rcb_player_list -->
+        <test-method status="PASS" signature="validate_foriegn_players()[pri:0, instance:com.execution.RCB@56f4468b]" name="validate_foriegn_players" duration-ms="1572" started-at="2022-08-12T08:32:50Z" finished-at="2022-08-12T08:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_foriegn_players -->
+        <test-method status="PASS" signature="validate_team_has_one_wicket_keeper(java.lang.String)[pri:0, instance:com.execution.RCB@56f4468b]" name="validate_team_has_one_wicket_keeper" duration-ms="296" started-at="2022-08-12T08:32:51Z" finished-at="2022-08-12T08:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wicket-keeper]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_team_has_one_wicket_keeper -->
+      </class> <!-- com.execution.RCB -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
